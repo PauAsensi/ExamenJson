@@ -1,38 +1,48 @@
 {
-  "combustio":[
-    {"marca":"Ford",
-     "modelo":"focus",
-     "km":100000,"foto":
-     "fotos/ford.jpg",
-     "llantes":[{"p_original":15000,"p_extra":16000}],
-     "asientos":[{"p_original":15000,"p_extra":165000}],
-     "altaveus":[{"p_original":15000,"p_extra":17000}] 
-    },
-    {"marca":"Hyundai",
-     "modelo":"ix35",
-     "km":150000,
-     "foto":"fotos/hyundai.jpg",
-     "llantes":[{"p_original":20000,"p_extra":21000}],
-     "asientos":[{"p_original":20000,"p_extra":22500}],
-     "altaveus":[{"p_original":20000,"p_extra":27000}]
-    }
-  ],
-  "hibrid":[
-    {"marca":"Mercedes",
-     "modelo":"c2020",
-     "km":50000,
-     "foto":"fotos/mercedes.jpg",
-     "llantes":[{"p_original":30000,"p_extra":35000}],
-     "asientos":[{"p_original":30000,"p_extra":39500}],
-     "altaveus":[{"p_original":30000,"p_extra":40000}]
-    },
-    {"marca":"Tesla",
-     "modelo":"S",
-     "km":40000,
-     "foto":"fotos/tesla.jpg",
-     "llantes":[{"p_original":80000,"p_extra":81000}],
-     "asientos":[{"p_original":80000,"p_extra":87000}],
-     "altaveus":[{"p_original":80000,"p_extra":85000}]
-    }
-  ]
+	"combustio": [{
+			"marca": "Ford",
+			"modelo": "focus",
+			"km": 100000,
+			"foto": "fotos/ford.jpg",
+			"extres": {
+				"llantes": "estrella",
+				"asientos": "cuero",
+				"altaveus": "480amp"
+			}
+		},
+		{
+			"marca": "Hyundai",
+			"modelo": "ix35",
+			"km": 150000,
+			"foto": "fotos/hyundai.jpg",
+			"extres": {
+				"llantes": "estrella",
+				"asientos": "cuero",
+				"altaveus": "480amp"
+			}
+		}
+	],
+	"hibrid": [{
+			"marca": "Mercedes",
+			"modelo": "c2020",
+			"km": 50000,
+			"foto": "fotos/mercedes.jpg",
+			"extres": {
+				"llantes": "estrella",
+				"asientos": "cuero",
+				"altaveus": "480amp"
+			}
+		},
+		{
+			"marca": "Tesla",
+			"modelo": "S",
+			"km": 40000,
+			"foto": "fotos/tesla.jpg",
+			"extres": {
+				"llantes": "estrella",
+				"asientos": "cuero",
+				"altaveus": "480amp"
+			}
+		}
+	]
 }
